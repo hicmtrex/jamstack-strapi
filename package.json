@@ -13,8 +13,6 @@
     "@strapi/plugin-i18n": "4.0.2",
     "@strapi/plugin-users-permissions": "4.0.2",
     "@strapi/strapi": "4.0.2",
-    "pg": "^8.7.1",
-    "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2"
   },
   "author": {
@@ -24,7 +22,7 @@
     "uuid": "53938867-995c-488e-8620-8955e77d01ac"
   },
   "engines": {
-    "node": "16.13.0",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
